@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.image {
+  height: 100vh;
+  width: 100%;
+}
+.kodee {
+  height: 50vh;
+  margin-left: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 150px;
+  filter: brightness(0) invert(1);
+}
+
+.logo {
+  height: 30px;
+  width: 40px;
+  margin: 30px 15px;
+}
+.now {
+  text-align: center;
+  font-size: 70px;
+}
+.join {
+  margin-left: 50px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+  margin: 0px 50px;
+}
+.button {
+  margin: 10px 0px;
+  border-radius: 30px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #dadce0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.google_icon {
+  width: 50px;
+  height: 40px;
+  margin: 2px;
+}
+.apple_icon {
+  width: 40px;
+  height: 33px;
+  margin: 2px 4px;
+}
+.OR {
+  margin: 10px 0px;
+  display: flex;
+}
+.lines {
+  height: 1px;
+  background-color: #dadce0;
+  width: 100px;
+  margin: 10px 5px;
+}
+.signup {
+  margin: 10px 0px;
+  border-radius: 30px;
+  height: 40px;
+  background-color: #1d9bf0;
+  border: 1px solid #dadce0;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.desc {
+  font-size: x-small;
+  margin-left: 50px;
+  width: 270px;
+}
+.terms {
+  color: #1d9bf0;
+}
+.terms:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
